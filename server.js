@@ -5,6 +5,7 @@ const port = 3000
 var middleware = require('./middleware')
 
 // app.use(middleware.requireAuthentication)
+//
 app.use(middleware.logger)
 
 // about
