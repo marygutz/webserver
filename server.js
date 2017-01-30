@@ -1,6 +1,7 @@
 var express = require('express')
 var app = express()
-const port = 3000
+// process.env.port is for heroku
+const port = process.env.port || 3000
 
 var middleware = require('./middleware')
 
